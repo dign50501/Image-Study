@@ -1,0 +1,11 @@
+GPU: 3 # number of gpu id to use
+num_workers: 2
+
+# dataset hyperparameters
+model: 'resnet50' # choose which resnet model to use: resnet18 | resnet34 | resnet50 | resnet101 | resnet152
+num_classes: 10 # number of classes in the dataset
+batch_size: 128
+lr: 0.01 
+num_epochs: 50
+
+CHK_DIR: './checkpoints' # logging directory
